@@ -1,0 +1,25 @@
+Plano de Corte Gerson27 v1.1.2
+
+O aplicativo agora inicia com Novo projeto, sem peças, desenho ou sobras.
+As medidas iniciais da chapa continuam preenchidas para facilitar o cadastro.
+Nenhum arquivo salvo é carregado automaticamente. Para continuar um projeto,
+use Abrir e selecione seu JSON. Para criar, ajuste a chapa, use + Peça,
+clique em Otimizar plano de corte e salve.
+
+A versão inclui as correções anteriores de ícone G27, layout com botão
+Otimizar fixo e confirmação ao iniciar Novo projeto.
+Fechar a janela pelo X continua sendo a forma de sair. Salve antes de fechar.
+
+Atualização já aplicada neste computador. Salve seu trabalho, feche a janela
+antiga e abra pelo menu. Confira v1.1.2 no título.
+
+Para reinstalar: extraia o ZIP, abra o terminal na pasta que contém
+instalar.sh e execute:
+  bash instalar.sh
+Não execute o instalador com sudo.
+Backup automático em ~/.local/share/plano-corte-gerson27-backups/
+(ou dentro de XDG_DATA_HOME, se personalizado).
+
+Verificado: duas inicializações vazias; leitura de JSON com as quatro peças
+anteriores; Novo limpa os resultados; arquivo salvo intacto; adicionar peça
+e otimizar continuam funcionando. Algoritmo de otimização inalterado.
