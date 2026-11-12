@@ -23,6 +23,18 @@ Aplicativo para Linux que organiza peças retangulares em chapas, desenha o plan
 
 Todas as dimensões são informadas em **milímetros**.
 
+## Compatibilidade com Linux
+
+**Testado no Fedora 44. O funcionamento em outras distribuições ainda não foi validado.**
+
+O aplicativo depende de Python 3, GTK4, PyGObject e Cairo. Outras distribuições podem executá-lo se tiverem versões compatíveis dessas dependências, mas os nomes dos pacotes e os comandos de instalação variam.
+
+**Os comandos com `dnf` deste README são destinados ao Fedora.** Não os utilize como instrução de instalação para Ubuntu, Debian, Linux Mint, Arch ou outras distribuições. Consulte a documentação da sua distribuição para instalar as dependências correspondentes.
+
+O script `instalar.sh` verifica as dependências e instala o aplicativo para o usuário atual. Ele não instala essas dependências automaticamente. Se elas estiverem ausentes, a sugestão de comando exibida pelo script também é específica do Fedora.
+
+Relatos de testes em outras distribuições são bem-vindos nas Issues. Informe a distribuição, sua versão e os passos utilizados; isso ajudará a documentar o suporte com precisão.
+
 ## Instalação no Fedora
 
 ### 1. Baixe o projeto
