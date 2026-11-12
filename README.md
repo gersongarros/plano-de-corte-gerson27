@@ -124,6 +124,10 @@ Se `XDG_DATA_HOME` estiver configurado, essas pastas ficam dentro desse diretór
 - Ícone G27 no cabeçalho e integração do ícone com o lançador GTK/Wayland.
 - Layout ajustado para 1366×768, mantendo o botão de otimização fora da área de rolagem.
 
+## Como contribuir
+
+Contribuições são bem-vindas! Consulte o [guia de contribuição](CONTRIBUTING.md) para preparar o ambiente, testar alterações e enviar uma pull request. As propostas serão revisadas antes de entrar na versão oficial.
+
 ## Sugestões e problemas
 
 Use a aba [Issues](https://github.com/gersongarros/plano-de-corte-gerson27/issues) para relatar problemas ou sugerir melhorias. Informe a versão do aplicativo, o sistema utilizado e os passos para reproduzir o problema.
